@@ -1,0 +1,64 @@
+# ---------------------------------------------------------------------------
+# Secrets / local environment — NEVER commit these
+# ---------------------------------------------------------------------------
+.env
+.env.local
+.env.*.local
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+ENV/
+
+# ---------------------------------------------------------------------------
+# Generated LUTs (keep the folder, ignore the .cube / .xmp outputs)
+# ---------------------------------------------------------------------------
+LUTs/*.cube
+LUTs/*.xmp
+
+# ---------------------------------------------------------------------------
+# Working data — personal RAW photos, sidecars, catalogs, cache
+# (keep the folder skeleton via .gitkeep, ignore the contents)
+# ---------------------------------------------------------------------------
+Camera_Ingest_Test/**/*.ARW
+Camera_Ingest_Test/**/*.CR3
+Camera_Ingest_Test/**/*.NEF
+Camera_Ingest_Test/**/*.DNG
+Camera_Ingest_Test/**/*.json
+Camera_Ingest_Test/03_Cache/*
+photography_catalog.csv
+Camera_Ingest_Test/photography_catalog.csv
+
+# Loose sample RAWs used by debug_vision.py
+sharp.ARW
+blurry.ARW
+*.ARW
+
+# ---------------------------------------------------------------------------
+# Debug output
+# ---------------------------------------------------------------------------
+debug_output/
+
+# ---------------------------------------------------------------------------
+# OS / editor cruft
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Keep .gitkeep placeholders even though their folders are otherwise ignored
+!.gitkeep

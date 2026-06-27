@@ -1,0 +1,12 @@
+# Core pipeline
+opencv-python
+numpy
+rawpy
+google-genai
+pydantic
+python-dotenv
+watchdog
+
+# Front-end
+streamlit
+Pillow
