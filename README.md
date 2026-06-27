@@ -93,9 +93,7 @@ the headless watcher behave identically. A quick map:
 For a deeper dive, see:
 
 - **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)** — module-by-module breakdown and on-disk data flow.
-- **[docs/LUT.md](docs/LUT.md)** — how Style → LUT measures a look and where its accuracy limits are.
-- **[docs/SHOWCASE.md](docs/SHOWCASE.md)** — the build story (planned with Gemini, finished with Claude Code), flowcharts, and shareable write-ups.
-- **[docs/CAPTURE_CHECKLIST.md](docs/CAPTURE_CHECKLIST.md)** — how to record the demo GIFs/screenshots for sharing.
+
 
 On-disk layout lives under `Camera_Ingest_Test/` (`01_Sharp_Queue`, `02_Rejects_Queue`,
 `03_Cache`) with a `photography_catalog.csv` master catalog; generated LUTs go to `LUTs/`. These
