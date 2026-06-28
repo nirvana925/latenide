@@ -40,8 +40,7 @@ pip install -r requirements.txt
 
 ## Set up your API key
 
-Latenide uses Google Gemini for the AI features. Your key lives in a local `.env` file that is
-**git-ignored**, so it is never uploaded when you publish the project.
+Latenide uses Google Gemini for the AI features. 
 
 1. Get a free key from **[Google AI Studio](https://aistudio.google.com/app/apikey)**.
 2. Copy the template to a real `.env`:
