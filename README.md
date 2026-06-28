@@ -56,9 +56,6 @@ Latenide uses Google Gemini for the AI features.
 **No key? It still works.** Without a key, Latenide continues to cull, route, and build LUTs —
 only the AI metadata, LUT naming, and editing suggestions are skipped with a graceful fallback.
 
-> 🔐 **Never commit your `.env`.** It is listed in `.gitignore` for exactly this reason. If you
-> ever paste a key somewhere public by accident, revoke it in Google AI Studio and generate a new one.
-
 ---
 
 ## Running
